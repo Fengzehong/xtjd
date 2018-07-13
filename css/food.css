@@ -1,0 +1,199 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-04 10:03:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-04 15:29:43
+*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    background: #eee;
+    font-size: 0.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*顶部开始*/
+header{
+    width: 7.5rem;
+    height: 1.28rem;
+    background: #4fb5e9;
+    position: fixed;
+    top:0;
+}
+.top{
+    width: 7.5rem;
+    height: 0.63rem;
+    /*background: red;*/
+    
+}
+.top img {
+    width: 0.27rem;
+    height: 0.45rem;
+    margin-top:0.63rem;
+    margin-left: 0.49rem;
+}
+.life p{
+    text-align: center;
+    font-size: 0.3818rem;
+    color:#ffffff;
+}
+
+/*顶部结束*/
+.content{
+	width: 7.5rem;
+	height: 12.05rem;
+	/*background: red;*/
+	margin-top: 1.28rem;
+	background: #ffffff;
+}
+/*导航开始*/
+.navigation{
+	width: 7.5rem;
+	height: 0.8rem;
+	/*background: yellow;*/
+	overflow: hidden;
+	border-bottom: 1px solid #cccccc;
+}
+.navigation a{
+	color:#333333;
+}
+.new{
+	border-bottom: 1px solid #4fb5e9;
+	color:#4fb5e9;
+	background: #4fb5e9;
+}
+/*导航结束*/
+/*聚会菜菜开始*/
+.jhcc{
+	width: 7.5rem;
+	height: 0.74rem;
+	/*background: red;*/
+	text-align: center;
+}
+.jhcc p {
+	font-size: 0.3471rem;
+	color:#333333;
+	margin-top: 0.25rem;
+}
+/*聚会菜菜结束*/
+/*面条视频开始*/
+.noodles{
+	width: 7.5rem;
+	height: 3.63rem;
+	/*background: yellow;*/
+}
+.noodles .left{
+	width: 5.43rem;
+	height: 3.63rem;
+	/*background: grey;*/
+}
+.noodles .left img {
+	margin-left: 0.25rem
+}
+.noodles .right {
+	width: 2.07rem;
+	height: 3.63rem;
+	/*background: pink;*/
+}
+.noodles .right img{
+	width: 1.8rem;
+	height: 1.13rem;
+}
+#pct2,#pct3{
+	margin-top: 0.07rem;
+	display: block;
+}
+/*面条视频结束*/
+/*文字电话开始*/
+.words{
+	width: 7.5rem;
+	height: 1.9rem;
+	/*background: yellow;*/
+}
+.words ul{
+	margin-top: 0.24rem;
+	margin-left: 0.25rem
+
+}
+.words ul li {
+	font-size: 0.2777rem;
+	color:#666666;
+}
+/*文字电话结束*/
+/*下拉框开始*/
+select{
+	width: 7.5rem;
+	height: 0.71rem;
+	font-size: 0.3124rem;
+	text-indent: 0.32rem
+}
+/*下拉框结束*/
+/*预约人数开始*/
+.people{
+	width: 7.5rem;
+	height: 1.69rem;
+	/*background: grey;*/
+}
+.people .number{
+	width: 6.82rem;
+	height: 1.69rem;
+	/*background: red;*/
+	margin-left: 0.32rem
+}
+.number ul{
+	display: flex;
+	justify-content: space-between;
+}
+.number ul li{
+	width: 1.18rem;
+	height: 0.55rem;
+	float: left;
+	border:1px solid #a0a0a0;
+	line-height: 0.55rem;
+	text-align: center;
+	margin-top: 0.51rem;
+	font-size: 0.2993rem;
+	color:#999999;
+	/*width: 20%;*/
+}
+.navdown{
+	background: #4fb5e9;
+}
+/*预约人数结束*/
+/*第一个按钮*/
+button{
+	width: 6.94rem;
+	height: 0.81rem;
+	background: #4fb5e9;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	font-size: 0.3763rem;
+	color:#ffffff;
+}
+/*第一个按钮*/
+/*第二个按钮*/
+#button {
+	margin-top: 0.31rem;
+	display: block;
+}
+/*第二个按钮*/
+

@@ -1,0 +1,24 @@
+*{margin: 0;padding: 0;}
+        a{text-decoration: none;}
+        ul{list-style: none;}
+        body{min-width: 320px;max-width: 750px;width: 100%;background: #eee;font-size: 0.2rem;margin: 0 auto;position: relative;}
+        .fl{float: left;}
+        .fr{float: right;}
+        header{width: 7.5rem;height: 1.29rem;background: #4fb5e9;}
+        .top{width: 7.5rem;height: 0.6rem;}
+        .top img{margin-top:0.6rem;margin-left: 0.38rem;width: 0.27rem;height: 0.44rem;}
+        .found{width: 7.5rem;height: 0.69rem;}
+        .found p{font-size:0.3818rem;color:#ffffff;text-align:center;}
+        .dibu{width: 7.5rem;height: 0.45rem;background: #4fb5e9;}
+        .dibuleft{background: skyblue;width: 1.1rem;height: 0.45rem;margin-left: 0.37rem}
+        .diburight {text-align: center;margin-top: 0.07rem;width: 0.63rem;height: 0.37rem;margin-left: 1.53rem}
+
+        .bottom{width: 7.50rem;height: 12.05rem;background: white;}
+        .bottom .main{width: 7.50rem;height: 1.4rem;border-bottom: 1px solid #5b5b5b;}
+        .bottom .main img{width: 1.18rem;height: 1.13rem;}
+        .bottom .main .left{width: 1.47rem;height: 1.24rem;margin-top:0.16rem;margin-left: 0.29rem}
+        .bottom .main .right{width: 5.51rem;height: 1.24rem;margin-top:0.16rem}
+        .bottom .main .right div{margin-top:0.18rem;color:#5b5b5b;font-size:0.3471rem;}
+        .bottom .main .right p{margin-top:0.19rem;font-size:0.243rem;color:#969695;}
+        .bottom .main .right span{float:right;color:#9a9a99;font-size:0.243rem;}
+        .bottom .main .right a{color:#ff8400;font-size:0.243rem;}

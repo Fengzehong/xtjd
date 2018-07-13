@@ -1,0 +1,82 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-06 15:11:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-06 15:43:54
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    background: #eee;
+    font-size: 0.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+header{
+	width: 7.5rem;
+	height: 1.28rem;
+	background: #4fb5e9;
+}
+.left{
+	width: 0.68rem;
+	height: 1.28rem;
+}
+.left img {
+	margin-top: 0.59rem;
+	margin-left: 0.39rem;
+	width: 0.28rem;
+	height: 0.43rem;
+}
+.center{
+	width: 4.95rem;
+	height: 1.28rem;
+}
+.center p{
+	margin-left: 2.71rem;
+	margin-top: 0.6rem;
+	font-size: 0.3818rem;
+	color:#ffffff;
+}
+.right{
+	width: 1.87rem;
+	height: 1.28rem;
+}
+.right a{
+	font-size: 0.3471rem;
+	color:#ffffff;
+	margin-top: 0.6rem;
+	display: block;
+}
+.content{
+	width: 7.5rem;
+	height: 12.05rem;
+	background: #eeeeee;
+}
+.word{
+	width: 7.5rem;
+	height: 1.22rem;
+	line-height: 1.22rem;
+	background: #ffffff;
+}
+.word p{
+	margin-left: 0.38rem;
+	color:#666666;
+	font-size: 0.3124rem
+}

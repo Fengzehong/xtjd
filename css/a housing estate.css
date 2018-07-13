@@ -1,0 +1,119 @@
+*{margin: 0;padding: 0;}
+    a{text-decoration: none;}
+    ul{list-style: none;}
+    body{min-width: 320px;max-width: 750px;width: 100%;height:13.33rem;background: #eee;font-size: 0.2rem;margin: 0 auto;position: relative;}
+    .fl{float: left;}
+    .fr{float: right;}
+    header{width: 7.5rem;height: 1.28rem;background: #4fb5e9;position: fixed;top:0;}
+    /*顶部开始*/
+    .top{width: 7.5rem;height: 0.6rem;}
+	    .top img{margin-top:0.6rem;margin-left: 0.38rem;width: 0.28rem;height: 0.46rem;}
+	    .house{width: 7.5rem;height: 0.69rem;}
+	    .house p{font-size:0.3818rem;color:#ffffff;text-align:center;}
+.content{
+    width: 7.5rem;
+    height: 12.05rem;
+    background: #ffffff;
+    margin-top: 1.28rem
+}
+.nav{
+    width: 7.5rem;
+    height: 0.87rem;
+    /*background: red;*/
+    line-height: 0.87rem;
+    border-bottom: 1px solid #dadada;
+}
+.nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.newcss{
+    background: #4fb5e9;
+}
+.hidden{
+    display: none;
+}
+.nav a{
+    font-size: 0.3174rem;
+    color:#333333;
+}
+.schedule{
+    width: 7.2rem;
+    height: 1.14rem;
+    /*background: #ffffff;*/
+    margin-left: 0.3rem;
+}
+.schedule div{
+    float: left;
+    border: 1px solid #dddddd;
+    width: 1.54rem;
+    height: 0.54rem;
+    line-height: 0.54rem;
+    text-align: center;
+    font-size: 0.3174rem;
+    color:#333333;
+    margin-top: 0.25rem;
+    margin-left: 0.17rem 
+}
+.schedule #all{
+    margin-left: 0rem;
+}
+.main{
+    width: 7.5rem;
+    height: 1.42rem;
+}
+.box{
+    width: 7.5rem;
+    height: 1.42rem;
+    border-bottom: 1px solid #dadada;
+}
+.megagame{
+    width: 7.5rem;
+    height: 1.42rem;
+    /*background: grey;*/
+}
+.main .left,.hidden .left{
+    width: 1.57rem;
+    height: 1.42rem;
+    /*background: orange;*/
+}
+.main .left img,.hidden .left img{
+    margin-left: 0.21rem
+}
+.main .center,.hidden .center{
+    width: 4.25rem;
+    height: 1.42rem;
+    /*background: pink;*/
+}
+.main .center p,.hidden .center p{
+    margin-top: 0.28rem;
+    margin-left: 0.26rem;
+    font-size: 0.3471rem;
+    color:#333333;   
+}
+.main .center span,.hidden .center span{
+    margin-top: 0.15rem;
+    display: block;
+    font-size: 0.2777rem;
+    color:#666666;
+    margin-left: 0.22rem
+}
+.main .right,.hidden .right{
+    width: 1.68rem;
+    height: 1.42rem;
+    /*background: skyblue;*/
+    text-align: center;
+    color:#ff0000; 
+}
+.main .right div,.hidden .right div{
+    width: 1.35rem;
+    height: 0.56rem;
+    line-height: 0.56rem;
+    margin-top: 0.42rem;
+    border:3px solid #e22128;
+    color:#ff0000;
+    font-size: 0.3627rem;
+    border-radius: 10%;
+}
+

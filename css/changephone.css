@@ -1,0 +1,30 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-06 15:04:01
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-06 15:08:02
+*/
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul{list-style: none;}
+body{min-width: 320px;max-width: 750px;width: 100%;background: #eee;font-size: 0.2rem;margin: 0 auto;position: relative;}
+.fl{float: left;}
+.fr{float: right;}
+/*头部*/
+header{width: 7.5rem;height: 1.28rem;background: #4fb5e9;position: fixed;top:0;margin:0 auto ;}
+.top{width: 7.5rem;height: 0.6rem;}
+.top img{margin-top:0.6rem;margin-left: 0.38rem;width: 0.28rem;height: 0.46rem;}
+.changephone{width: 7.5rem;height: 0.69rem;}
+.changephone p{font-size:0.3818rem;color:#ffffff;text-align:center;}
+
+/*新手机号码*/
+.bottom	{width: 7.5rem;height: 12.05rem;background: #ffffff;overflow: hidden;display: block;}
+.bottom	.phone{width: 6.58rem;height: 0.73rem;margin-top:2rem;margin-left: 0.47rem}
+.bottom	.phone input{width: 6.58rem;height: 0.73rem;}
+/*验证码*/
+.identifying {width: 7rem;height: 0.73rem;margin-top:0.28rem;margin-left: 0.47rem}
+.identifying #give{width: 3.65rem;height: 0.73rem;float:left;}
+.identifying #get{width: 2.77rem;height: 0.73rem;margin-left:0.14rem;background: #ffffff;}
+/*确定*/
+.anniu{width: 6.55rem;height: 0.79rem;margin-top: 0.47rem;margin-left: 0.47rem}
+.anniu input{width: 6.55rem;height: 0.79rem;background: #4fb5e9;}

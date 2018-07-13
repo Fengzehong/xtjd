@@ -1,0 +1,39 @@
+   /* *{margin: 0;padding: 0;}
+    a{text-decoration: none;}
+    ul{list-style: none;}
+    body{min-width: 320px;max-width: 750px;width: 100%;background: #eee;font-size: 0.2rem;margin: 0 auto;position: relative;}
+    .fl{float: left;}
+    .fr{float: right;}*/
+
+    /*顶部开始*/
+  /*  header{width: 7.5rem;height: 1.29rem;background: #4fb5e9;position: fixed;top:0;}
+    .top{width: 7.5rem;height: 0.6rem;}
+    .top img{margin-top:0.6rem;margin-left: 0.38rem;width: 0.28rem;height: 0.46rem;}
+    .appointment{width: 7.5rem;height: 0.69rem;}
+    .appointment p{font-size:0.3818rem;color:#ffffff;text-a*//*lign:center;}*/
+    /*顶部结束*/
+  /*  .bottom{width: 7.5rem;height: 12.05rem;background: lightblue;float:left;margin-top: 1.29rem;display: block;}
+    .bottom .main{width: 7.5rem;height: 0.87rem;float:left;}
+    .phone{width: 6.65rem;height: 0.55rem;margin-top:0.32rem;margin-left:0.41rem;}
+    .phone p{float:left;font-size:0.3471rem;color:#666666;}
+    .phone a{float:right;font-size:0.3471rem;color:#fea454;}*/
+
+    *{margin: 0;padding: 0;}
+    a{text-decoration: none;}
+    ul{list-style: none;}
+    body{min-width: 320px;max-width: 750px;width: 100%;background: #eee;font-size: 0.2rem;margin: 0 auto;position: relative;}
+    .fl{float: left;}
+    .fr{float: right;}
+
+    /*顶部开始*/
+    header{width: 7.5rem;height: 1.29rem;background: #4fb5e9;position: fixed;top:0;}
+    .top{width: 7.5rem;height: 0.6rem;}
+    .top img{margin-top:0.6rem;margin-left: 0.38rem;width: 0.28rem;height: 0.46rem;}
+    .appointment{width: 7.5rem;height: 0.69rem;}
+    .appointment p{font-size:0.3818rem;color:#ffffff;text-align:center;}
+    /*顶部结束*/
+    .bottom{width: 7.5rem;height: 12.05rem;background: #ffffff;float:left;margin-top: 1.29rem;display: block;}
+    .bottom .main{width: 7.5rem;height: 0.87rem;float:left;}
+    .phone{width: 6.65rem;height: 0.55rem;margin-top:0.32rem;margin-left:0.41rem;}
+    .phone p{float:left;font-size:0.3471rem;color:#666666;}
+    .phone a{float:right;font-size:0.3471rem;color:#fea454;}

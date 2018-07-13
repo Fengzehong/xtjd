@@ -1,0 +1,85 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-22 09:59:27
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-06-22 10:38:41
+*/
+*{
+    margin:0;
+    padding: 0
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    background: #eee;
+    font-size: 0.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*顶部开始*/
+header{
+    width: 7.5rem;
+    height: 1.28rem;
+    background: #4fb5e9;
+    position: fixed;
+    top:0;
+}
+.top{
+    width: 7.5rem;
+    height: 0.63rem;
+    /*background: red;*/
+    
+}
+.top img {
+    width: 0.27rem;
+    height: 0.45rem;
+    margin-top:0.63rem;
+    margin-left: 0.49rem;
+}
+.notice p{
+    text-align: center;
+    font-size: 0.3818rem;
+    color:#ffffff;
+}
+
+/*顶部结束*/
+.content{
+    width: 7.5rem;
+    height: 12.05rem;
+    margin-top: 1.28rem;
+    background: #ffffff;
+}
+.word{
+	margin-top: 0.04rem;
+    width: 7.5rem;
+    height: 1.04rem;
+    border-bottom: 1px solid #666666;
+}
+.word p{
+    font-size: 0.3471rem;
+    color:#666666;
+    float: left;
+    margin-left: 0.4rem;
+    height:1.04rem;
+    line-height: 1.04rem;
+}
+.word img{
+    float: right;
+    margin-right: 0.75rem;
+    margin-top:0.45rem;
+    width: 0.15rem;
+    height: 0.23rem;
+}

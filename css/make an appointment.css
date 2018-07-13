@@ -1,0 +1,25 @@
+		*{margin: 0;padding: 0;}
+	    a{text-decoration: none;}
+	    ul{list-style: none;}
+	    body{min-width: 320px;max-width: 750px;width: 100%;background: #eee;font-size: 0.2rem;margin: 0 auto;position: relative;}
+	    .fl{float: left;}
+	    .fr{float: right;}
+	    /*头部*/
+	    header{width: 7.5rem;height: 1.28rem;background: #4fb5e9;position: fixed;top:0;margin:0 auto ;}
+	    /*顶部开始*/
+	    .top{width: 7.5rem;height: 0.6rem;}
+	    .top img{margin-top:0.6rem;margin-left: 0.38rem;width: 0.28rem;height: 0.46rem;}
+	    .reserve{width: 7.5rem;height: 0.69rem;}
+	    .reserve p{font-size:0.3818rem;color:#ffffff;text-align:center;}
+	    /*顶部结束*/
+		/*场地预约*/
+	    .content{width: 7.5rem;height: 12.09rem;margin-top:1.28rem;float:left;background: #ffffff;}
+	    .content .main{width: 7.22rem;height: 0.67rem;margin-left: 0.29rem;display: block;}
+	    .content .main p{font-size:0.3471rem;color:#333333;margin-top:0.67rem;font-weight: bold ;}
+	    .content .nav{width: 7.5rem;height: 0.97rem;float:left;}
+	    .content .nav input{width: 20%;height: 0.57rem;margin-left: 0.29rem;}
+		/*物品预约*/
+	    .content .goods{width: 7.22rem;height: 0.67rem;margin-left: 0.29rem;display: block;}
+	    .content .goods p{font-size:0.3471rem;color:#333333;margin-top:0.67rem;font-weight: bold ;}
+	    .content .sport{width: 7.5rem;height: 0.97rem;float:left;margin-top:0.53rem;}
+	    .content .sport input{width: 20%;height: 0.57rem;margin-left: 0.29rem;}

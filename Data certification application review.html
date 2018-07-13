@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"> 
+
+    <title>首页</title>
+    <link rel="stylesheet" href="css/Data authentication.css">
+
+    <script src="js/jquery-1.11.2.min.js"></script> 
+
+    <script>
+        $('html').css('fontSize', ($(window).width()>750?750:$(window).width())/750*100);
+        $(function(){
+            $('html').css('fontSize', $('body').width()/750*100);
+        });
+    </script>
+
+    
+    <!-- rem:相对于根元素  1rem=100px -->
+</head>
+<body>
+    <header>
+        <div class="top fl">
+            <a href=""><img src="images/1.png" alt=""></a>
+        </div>
+        <div class="title fl">
+            <p>资料认证</p>
+        </div>
+    </header>
+    <div class="bottom fl">
+        <div class="main">
+            <div class="name">
+                <div class="left">
+                    <span>姓名</span>
+                </div>
+                <div class="right">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="city">
+                <div class="left">
+                    <span>城市</span>
+                </div>
+                <div class="right">
+                    <select><option value ="volvo"></option></select>
+                </div>
+            </div>
+            <div class="qu">
+                <div class="left">
+                    <span>区</span>
+                </div>
+                <div class="right">
+                    <select><option value ="volvo"></option></select>
+                </div>
+            </div>
+            <div class="street">
+                <div class="left">
+                    <span>街道</span>
+                </div>
+                <div class="right">
+                    <select><option value ="volvo"></option></select>
+                </div>
+            </div>
+            <div class="shequ">
+                <div class="left">
+                    <span>社区</span>
+                </div>
+                <div class="right">
+                    <select><option value ="volvo"></option></select>
+                </div>
+            </div>
+            <div class="xiaoqu">
+                <div class="left">
+                    <span>小区</span>
+                </div>
+                <div class="right">
+                    <select><option value ="volvo"></option></select>
+                </div>
+            </div>
+            <div class="doorno">
+                <div class="left">
+                    <span>门牌号</span>
+                </div>
+                <div class="right">
+                    <input type="text" placeholder="输入门牌号" style=" font-size:0.3124rem;color:#666666;text-indent: 1em;" >
+                </div>
+            </div>
+            <div class="preserve">
+                <input type="button" value="保存并下一步" style="font-size:0.3763rem;color:#ffffff">
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

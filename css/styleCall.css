@@ -1,0 +1,53 @@
+/*页面初始化*/
+*{
+	margin: 0;
+	padding: 0;
+	/*border:0.1px dotted black ;*/
+}
+a{text-decoration: none; color:#8b8b8b;}
+li{list-style: none;}
+.img{border:0;}
+.fr{float: right;}
+.fl{float: left;}
+html,body{width:100%;min-width: 320px;max-width: 750px;font-size: 0.2rem;height: 100%;margin:0 auto; box-sizing:border-box; }
+header, section, article, aside, footer, figure, nav{display: block;}
+/*顶部*/
+.headCall{width:7.5rem;height:1.28rem;background-color: #4fb5e9;position: fixed;top:0;}
+.headCall .back{width:0.65rem;height:100%;float:left;text-align:right;}
+.headCall .back a{width:100%;height:100%;}
+.headCall .back a img{width:0.25rem;height:0.44rem;margin-top: 0.6rem;}
+.headCall .title{width:6.07rem;float:left;text-align: center;font-size: 0.38rem; color: #fff; padding-top: 0.6rem;}
+.empty_head{height:1.28rem;width:100%;}
+
+/***************************************************************办事指南************************************/
+.contentCall{width:7.5rem;overflow: hidden;  border-bottom: 2px solid #ccc;}
+.contentCall .imgheadCall{width:6.9rem;height:1.6rem;margin: 0 auto;}
+.contentCall .imgheadCall p{width:1.4rem;height:100%;}
+.contentCall .imgheadCall .worheadCall{width:4.6rem;padding-top: 0.18rem;}
+.contentCall .imgheadCall .conheadCall{height:100%;}
+.contentCall .imgheadCall p a{width:1.09rem;height:1.32rem;display: block;padding-top:0.18rem; }
+.contentCall .imgheadCall p a img{width:100%;height:100%;}
+.contentCall .imgheadCall h2{font-size: 0.34rem;line-height: 0.53rem;color: #5b5b5b; }
+.contentCall .imgheadCall h3{font-size: 0.24rem;color: #969695; }
+.contentCall .imgheadCall .conheadCall button{
+	margin-top: 0.52rem;
+	width:0.7rem;
+	height:0.7rem;
+	display: block;
+	border-radius:50%;
+	background: url('../images/imgpho.png') no-repeat center;
+	background-size: 0.68rem;
+	border: 0;
+}
+.main .contentCall:nth-of-type(1){border-bottom: 1px solid #ccc;}
+/***************************************************************办事指南详情************************************/
+.deatil_guide {width:6.92rem;overflow: hidden;;margin: 0.38rem auto auto auto;}
+.deatil_guide h2{text-align: center;font-size: 0.38rem;color:#333;}
+.deatil_guide h3{font-size: 0.29rem;color:#999;margin-top: 0.5rem;}
+.deatil_guide p{font-size: 0.31rem;color:#666;margin-top: 0.3rem;text-indent: 2em;}
+.deatil_guide p.noindent{text-indent:0em;}
+.deatil_guide a img{width:6.92rem;height:3.66rem;}
+.deatil_guide a {margin-top: 0.3rem;display: block;}
+.deatil_guide h4 {margin-top: 0.3rem;font-size: 0.26rem;color: #9a9a99;}
+.deatil_guide h4 span{margin-left: 0.26rem;color:#ff8400;}
+

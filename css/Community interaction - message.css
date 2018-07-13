@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body
+{min-width: 320px;
+	max-width: 750px;
+	width: 100%;
+	background: #eee;
+	font-size: 0.2rem;
+	margin: 0 auto;
+	position: relative;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*头部*/
+header{
+	width: 7.5rem;
+	height: 1.28rem;
+	background: #4fb5e9;
+	position: fixed;
+	top:0;
+	margin:0 auto ;
+}
+.left{
+	width: 3.35rem;
+	height: 1.28rem;
+}
+.left img{
+	margin-left:0.38rem;
+	margin-top: 0.6rem;
+	width: 0.28rem;
+	height: 0.46rem;
+}
+.center{
+	width: 2.8rem;
+	height: 1.28rem;
+	float:left;
+}
+.center p{
+	margin-top: 0.6rem;
+	font-size:0.3818rem;
+	color:#ffffff;
+}
+.right{
+	width: 1.23rem;
+	height: 1.28rem;
+}
+.right p{
+	margin-top: 0.6rem;
+}
+.right a{
+	font-size:0.3818rem;
+	color:#ffffff;
+}
+/*头部结束*/
+.content{
+	width: 7.5rem;
+	height: 12.05rem;
+	background: #eeeeee;
+	margin-top:1.28rem;
+	display: block;
+}
+.content .main{
+	width: 7.5rem;
+	height: 5.03rem;
+	float:left;
+}
+.content .top{
+	width: 7.16rem;
+	height: 3.09rem;
+	margin-top: 0.35rem;
+	margin-left: 0.35rem;
+}
+.content .top p {
+	font-size:0.3124rem;
+	color:#999999;
+}
+.content .bottom .pct1{
+	width: 1.47rem;
+	height: 1.59rem;
+	margin-left:0.28rem;
+}
+.content .bottom .pct2{
+	width: 5.75rem;
+	height: 1.59rem;
+}
+.pct1 img{
+	width: 1.28rem;
+	height: 1.28rem;
+}
+.pct2 img{
+	width: 1.28rem;
+	height: 1.28rem;
+}
+.dibu{
+	width: 7.5rem;
+	height: 5.94rem;
+	background: #ffffff;
+}

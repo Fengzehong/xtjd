@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/communitysendwords.css">
+    <title>互动管理</title>
+    <link rel="stylesheet" href="">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script>$('html').css('fontSize', ($(window).width()>750?750:$(window).width())/750*100);
+        $(function(){
+            $('html').css('fontSize', $('body').width()/750*100);
+        });</script>
+</head>
+<body>
+<!-- 顶部 -->
+    <div class="headIta">
+        <div class="back">
+            <a href=""><img src="images/back.png" alt=""></a>
+        </div>
+        <div class="title">
+        互动管理
+        </div>
+    </div>
+    <div class="emptyManagement"></div>
+<!-- 内容 -->
+    <p id="selButton"><input type="button" value="我的社文" id="myWords"><input type="button" value="发出的评论" id="sendWords"><input type="button" value="收到的评论" id="getWords"></p>
+    <div class="content contentIta">
+        <div class="sctA">
+            <div class="tp">
+                <a href=""><img src="images/userCommunity.png" alt=""></a>
+                <div class="wd">
+                    <h2>于丹</h2>
+                    <h3>2016-04-01至2016-05-01</h3>
+                    <form action="">
+                    <input type="button"><input type="button" value="删除">
+                    </form>
+                </div>
+
+            </div>
+            <p>中秋节马上就要到了，大家准备怎么过？</p>
+            <p>评论</p>
+        </div>
+        <div class="sctA">
+            <div class="tp">
+                <a href=""><img src="images/userCommunity.png" alt=""></a>
+                <div class="wd">
+                    <h2>于丹</h2>
+                    <h3>2016-04-01至2016-05-01</h3>
+                    <form action="">
+                    <input type="button" value=""><input type="button" value="删除">
+                    </form>
+                </div>
+
+            </div>
+            <p>中秋节马上就要到了，大家准备怎么过？</p>
+            <p>评论</p>
+        </div>
+        </div>
+    </div>
+    <div class="empty_footer" ><a href="" id="eptFt"></a></div>
+</body>
+</html>

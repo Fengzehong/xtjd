@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 设置图像比率1:1 -->
+    <meta name="viewport" content="width=device-width, initial-sscale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>赛维洗衣</title>
+    <link rel="stylesheet" href="css/initialize.css">
+    <link rel="stylesheet" href="css/Saiweilaundry.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script>$('html').css('fontSize', ($(window).width()>750?750:$(window).width())/750*100);
+    $(function(){
+        $('html').css('fontSize', $('body').width()/750*100);
+    });</script>
+    <style>
+    .active{
+    background: #4fb5e9;
+}
+nav aside ul{
+    display: none;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <section class="fl">
+            <article class="fr">
+                <input type="button">
+            </article>
+        </section>
+        <section class="fl streetAct">
+            <article>
+                赛维洗衣
+            </article>
+        </section>
+        <section class="fl">
+            <article>
+            </article>
+        </section>
+    </header>
+    <div class="emptyTop"></div>
+    <nav>
+        <section class="fl">
+            <li>裤装</li>
+            <li>大衣外套</a>
+            <li>上衣</a>
+        </section>
+        <aside class="fr">
+            <ul style=" display:block; ">
+                <li>
+                    <a href="" class="fl"><img src="images/clothShow.png" alt=""></a>
+                    <div class="fr">
+                        <h2 >裤装</h2>
+                        <h3 >¥ 260</h3>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="" class="fl"><img src="images/clothShow.png" alt=""></a>
+                    <div class="fr">
+                        <h2 >大衣外套</h2>
+                        <h3 >¥ 260</h3>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="" class="fl"><img src="images/clothShow.png" alt=""></a>
+                    <div class="fr">
+                        <h2 >上衣</h2>
+                        <h3 >¥ 260</h3>
+                    </div>
+                </li>
+            </ul>
+        </aside>
+    </nav>
+</body>
+</html>
+<script>
+    var oSele = document.getElementsByTagName('nav')[0];
+    var oLi=oSele.getElementsByTagName('li');
+    var oUl=document.getElementsByTagName('ul');
+    for(var i=0;i<oLi.length;i++){
+        oLi[i].index=i;
+        oLi[i].onclick=function(){
+            for(var i=0;i<oUl.length;i++){
+                oLi[i].className="";
+                oUl[i].style.display='none';
+            }
+        oUl[this.index].style.display='block';
+        this.className="active"
+        }
+    }
+
+</script>

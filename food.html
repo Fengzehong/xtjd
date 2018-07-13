@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"> 
+    <title>生活圈-美食详情页-</title>
+    <link rel="stylesheet" href="css/food.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="js/scale750.js"></script>
+    <script>
+      $(document).ready(function(){
+        var $luoxi = $('.schedule div');
+          $luoxi.click(function(){
+          $(this).addClass('newcss').siblings().removeClass('newcss');
+             var index = $luoxi.index(this);
+          // $('.main').eq(index).show().siblings().hide();
+          $('.megagame > div').eq(index).show().siblings().hide();
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function(){
+        var $luoxi = $('.left ul li');
+          $luoxi.click(function(){
+          $(this).addClass('newcss').siblings().removeClass('newcss');
+             var index = $luoxi.index(this);
+          // $('.main').eq(index).show().siblings().hide();
+          $('.num > div').eq(index).show().siblings().hide();
+        });
+      });
+    </script>
+</head>
+<body>
+    <!-- 顶部开始 -->
+    <header>
+        <div class="top">
+            <a href=""><img src="images/1.png" alt=""></a>
+        </div>
+        <div class="life">
+            <p>生活圈</p>
+        </div>
+    </header>
+    <!-- 顶部结束 -->
+    <div class="content">
+        <!-- 导航开始 -->
+        <div class="navigation">
+            <span style="width:1.28rem;height:0.8rem;line-height:0.8rem;font-size: 0.3174rem;color:#9a9a99;float:left;margin-left: 0.29rem "><a href="">出行查询</a></span>
+            <span style="width:0.65rem;height:0.8rem;line-height:0.8rem;display: block;font-size: 0.3174rem;color:#9a9a99;float:left;margin-left: 0.49rem"><a href="">美食</a></span>
+            <span id="washClothes" style="width:0.65rem;height:0.8rem;line-height:0.8rem;display: block;font-size: 0.3174rem;color:#9a9a99;float:left;margin-left: 0.43rem"><a href="">洗衣</a></span>
+            <span style="width:1.27rem;height:0.8rem;line-height:0.8rem;display: block;font-size: 0.3174rem;color:#9a9a99;float:left;margin-left: 0.44rem"><a href="">家政服务</a></span>
+            <span style="width:1.27rem;height:0.8rem;line-height:0.8rem;display: block;font-size: 0.3174rem;color:#9a9a99;float:left;margin-left: 0.5rem"><a href="">美容美发</a></span>
+        </div>
+        <!-- 导航结束 -->
+        <!-- 聚荟菜菜开始 -->
+            <div class="jhcc fl">
+                <p>聚荟菜菜</p>
+            </div>
+        <!-- 聚荟菜菜结束 -->
+        <div class="noodles fl">
+            <div class="left fl">
+                <a href=""><img src="images/bigpct.png" alt=""></a>
+            </div>
+            <div class="right fl">
+                <a href=""><img src="images/smpct.png" alt=""></a>
+                <a href="" id="pct2"><img src="images/smpct.png" alt=""></a>
+                <a href="" id="pct3"><img src="images/smpct.png" alt=""></a>
+            </div>
+        </div>
+        <div class="words fl">
+            <ul>
+                <li>电话：1368999902</li>
+                <li>地址：重庆市渝北区仙桃 街道xx社区xx小区</li>
+                <li>简介：服务特色介绍本店以诚为本，坚持客户至上原则，<br>价格便宜，服务到位.</li>
+            </ul>
+        </div>
+        <select>
+            <option value ="volvo">时间段 10：00~11：00</option>
+            <option value ="saab">时间段 11：00~12：00</option>
+            <option value="opel">时间段 12：00~13：00</option>
+            <option value="audi">时间段 13：00~14：00</option>
+        </select>
+        <div class="people">
+            <div class="number">
+                <ul>
+                    <li>2人</li>
+                    <li>3-4人</li>
+                    <li>5-6</li>
+                    <li>7-8人</li>
+                    <li>9人以上</li>
+                </ul>
+            </div>
+        </div>
+        <button>订座</button>
+        <button id="button">订座并订单</button>
+    </div>
+    <script>
+        $(function(){
+            $(".number ul li").click(function(){
+                 $(".number ul li").eq($(this).index()).addClass("navdown").siblings().removeClass("navdown");
+            }),
+            $("button").click(function(){
+                alert("恭喜您，订座成功！")
+            })
+        })
+    </script>
+    </body>
+</html>

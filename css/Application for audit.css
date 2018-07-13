@@ -1,0 +1,96 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-22 11:47:30
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-06-22 14:03:12
+*/
+*{
+	margin: 0;padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	min-width: 320px;
+	max-width: 750px;
+	width: 100%;
+	background: #eee;
+	font-size: 0.2rem;
+	margin: 0 auto;
+	position: relative;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*头部*/
+header{
+	width: 7.5rem;
+	height: 1.28rem;
+	background: #4fb5e9;
+	position: fixed;
+	top:0;
+	margin:0 auto ;}
+.top{
+	width: 7.5rem;
+	height: 0.6rem;
+}
+.top img{
+	margin-top:0.6rem;
+	margin-left: 0.38rem;
+	width: 0.28rem;
+	height: 0.46rem;
+}
+.Application{
+	width: 7.5rem;
+	height: 0.69rem;
+}
+.Application p{
+	font-size:0.3818rem;
+	color:#ffffff;
+	text-align:center;
+}
+.content{
+	width: 7.5rem;
+	height: 12.05rem;
+	background: #ffffff;
+	margin-top:1.28rem;
+}
+.content .name{
+	width: 7.5rem;
+	height: 2.45rem;
+	/*background: green;*/
+	overflow: hidden;
+}
+.name ul{
+	margin-top: 0.55rem;
+}
+.name ul li{
+	font-size:0.3471rem;
+	color:#333333;
+	margin-left: 0.42rem
+}
+button{
+	font-size:0.3763rem;
+	color:#ffffff;
+	background: #4fb5e9;
+	width: 6.54rem;
+	height: 0.79rem;
+	margin-left: 0.49rem
+}
+.word{
+	width: 6.54rem;
+	/*background: red;*/
+	margin-left: 0.5rem
+}
+.word p{
+	font-size: 0.3124rem;
+	color:#999999;
+	margin-top: 0.58rem;
+	line-height:0.42rem;
+}

@@ -1,0 +1,57 @@
+*{margin: 0;padding: 0;}
+        a{text-decoration: none;}
+        ul{list-style: none;}
+        body{min-width: 320px;max-width: 750px;width: 100%;background: #eee;font-size: 0.2rem;margin: 0 auto;position: relative;}
+        .fl{float: left;}
+        .fr{float: right;}
+        /*顶部开始*/
+        header{width: 7.5rem;height: 1.26rem;background: #4fb5e9;position: fixed;top:0;}
+        header .top{width: 7.5rem;height: 0.58rem;}
+        header .top img{margin-top: 0.58rem;margin-left: 0.38rem;width: 0.28rem;height: 0.46rem;}
+        header .title{width: 7.5rem;height: 0.68rem;}
+        header .title p{text-align: center;font-size:0.3818rem;color:#ffffff; }
+       /*顶部结束*/
+       /*中间部分*/
+       .bottom {width: 7.5rem;height: 12.08rem;background: #ffffff;}
+       .bottom .main{width: 7.5rem;height: 7.8rem;margin-top:2.1rem;display: block;}
+       .main .name{width: 7.5rem;height: 0.65rem;margin-top: 0.28rem}
+       .main .name .left{width: 1.83rem;height: 0.65rem;overflow: hidden;float:left;}
+       .main .name .left span{font-size: 0.3124rem;text-align: right;color:#666666;margin-top:0.19rem;margin-right:0.37rem;display: block;}
+       .main .name .right {width: 4.98rem;height: 0.65rem;float: left;display: block;}
+       .main .name .right input{width: 4.98rem;height: 0.65rem;}
+
+       .city {width: 7.5rem;height: 0.65rem;margin-top: 0.28rem}
+       .city  .left{width: 1.83rem;height: 0.65rem;overflow: hidden;float:left;}
+       .city  .left span{font-size: 0.3124rem;text-align: right;color:#666666;margin-top:0.19rem;margin-right:0.37rem;display: block;}
+       .city  .right {width: 4.98rem;height: 0.65rem;float: left;display: block;}
+       .city  .right select{width: 4.98rem;height: 0.65rem;}
+       .qu {width: 7.5rem;height: 0.65rem;margin-top: 0.28rem}
+       .qu  .left{width: 1.83rem;height: 0.65rem;overflow: hidden;float:left;}
+       .qu  .left span{font-size: 0.3124rem;text-align: right;color:#666666;margin-top:0.19rem;margin-right:0.37rem;display: block;}
+       .qu  .right {width: 4.98rem;height: 0.65rem;float: left;display: block;}
+       .qu  .right select{width: 4.98rem;height: 0.65rem;}
+       .street {width: 7.5rem;height: 0.65rem;margin-top: 0.28rem}
+       .street  .left{width: 1.83rem;height: 0.65rem;overflow: hidden;float:left;}
+       .street  .left span{font-size: 0.3124rem;text-align: right;color:#666666;margin-top:0.19rem;margin-right:0.37rem;display: block;}
+       .street  .right {width: 4.98rem;height: 0.65rem;float: left;display: block;}
+       .street  .right select{width: 4.98rem;height: 0.65rem;}
+       .shequ {width: 7.5rem;height: 0.65rem;margin-top: 0.28rem}
+       .shequ  .left{width: 1.83rem;height: 0.65rem;overflow: hidden;float:left;}
+       .shequ  .left span{font-size: 0.3124rem;text-align: right;color:#666666;margin-top:0.19rem;margin-right:0.37rem;display: block;}
+       .shequ  .right {width: 4.98rem;height: 0.65rem;float: left;display: block;}
+       .shequ  .right select{width: 4.98rem;height: 0.65rem;}
+       .xiaoqu {width: 7.5rem;height: 0.65rem;margin-top: 0.28rem}
+       .xiaoqu  .left{width: 1.83rem;height: 0.65rem;overflow: hidden;float:left;}
+       .xiaoqu  .left span{font-size: 0.3124rem;text-align: right;color:#666666;margin-top:0.19rem;margin-right:0.37rem;display: block;}
+       .xiaoqu  .right {width: 4.98rem;height: 0.65rem;float: left;display: block;}
+       .xiaoqu  .right select{width: 4.98rem;height: 0.65rem;}
+       .doorno {width: 7.5rem;height: 0.65rem;margin-top: 0.28rem}
+       .doorno  .left{width: 1.83rem;height: 0.65rem;overflow: hidden;float:left;}
+       .doorno  .left span{font-size: 0.3124rem;text-align: right;color:#666666;margin-top:0.19rem;margin-right:0.37rem;display: block;}
+       .doorno  .right {width: 4.98rem;height: 0.65rem;float: left;display: block;}
+       .doorno  .right input{width: 4.98rem;height: 0.65rem;}
+       .doorno  .right input {width: 4.98rem;height: 0.65rem;font-size:70%;color:#666666;}
+
+       /*按钮 */
+       .preserve input{width: 6.5rem;height: 0.8rem;background: #4fb5e9;margin-top: 0.72rem;margin-left: 0.48rem;}
+       

@@ -1,0 +1,173 @@
+header{
+	width: 7.5rem;
+	height: 1.28rem;
+	background: #4fb5e9;
+	position: fixed;
+	top:0;
+}
+header section{
+	width: 25%;
+	height: 1.28rem;
+	height: 0.9rem;
+	margin-top: 0.38rem;
+	line-height: 0.9rem;
+	text-align: center;
+}
+header .streetAct{
+	width: 50%;
+}
+.comActives section:nth-child(1),.comActives section:nth-child(3){
+	width: 35%;
+	height: 1.28rem;
+	height: 0.9rem;
+	margin-top: 0.38rem;
+	line-height: 0.9rem;
+	text-align: center;
+	font-size: 0.34rem;
+	color:#fff;
+}
+.comActives section:nth-child(3) select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	width:2.2rem;
+	font-size: 0.34rem;
+	color:#fff;
+	text-align: left;
+	background: url(../images/cAHeadR.png) no-repeat center ;
+	background-position: right ;
+	outline:none;
+	border: 0;
+	text-indent: 0.1rem;
+}
+.comActives section:nth-child(2){
+	width: 30%;
+	height: 1.28rem;
+	height: 0.9rem;
+	margin-top: 0.38rem;
+	line-height: 0.9rem;
+}
+header section:nth-child(2) article{
+	width: 100%;
+	text-align: center;
+	color:#fff;
+	font-size: 0.38rem;
+}
+header section:nth-child(1) article{
+	width: 80%;
+	height: 100%;
+}
+header section:nth-child(1) article input{
+	width: 100%;
+	height: 100%;
+	background: url(../images/back.png) no-repeat 0 center;
+	background-size: 0.25rem 0.44rem;
+	border: 0;
+	appearance:none;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none;/* Safari 和 Chrome */
+	outline: none;/* 消除选中效果*/
+}
+/*顶部占位*/
+.emptyTop{width:100%;height: 2.13rem;}
+nav{
+	width:7.5rem;
+	height: 0.85rem;
+	border-bottom:2px solid #ccc;
+	position: fixed;
+	top:1.28rem;
+	z-index: 3;
+	background: #fff;
+}
+nav input{
+	width:25%;
+	height: 100%;
+	border: 0;
+	background: 0;
+	outline: none;
+	font-size:0.31rem;
+	color:#333;
+}
+nav input:hover{
+	border-bottom:2px solid #4fb5e9;
+	color:#4fb5e9;
+}
+
+footer{
+	width: 100%
+}
+footer #actSlt{
+	width: 75%;
+	height:1.1rem;
+	text-align: center;
+}
+footer #actSlt input{
+	width: 1.55rem;
+	height:0.55rem;
+	margin:0.3rem 0.2rem auto auto;
+	background: 0;
+	border: 1px solid #dedede;
+	color:#9a9a99;
+	font-size: 0.31rem;
+	border-radius: 3% 3%;
+	font-family: "冬青黑体简体中文";
+}
+footer #actSlt input:hover{
+	color:#fff;
+	background: #4fb5e9;
+	border: 1px solid #dedede;
+}
+footer #actSlt input:nth-child(1){
+	margin-left:0.3rem;
+}
+footer section{
+	width:100%;
+	height: 1.5rem;
+	border-bottom:2px solid #ccc;
+	z-index: 2;
+}
+footer section article:nth-child(1){
+	width:20%;
+	height: 100%;
+	margin: 0 auto;
+	/*插入背景图*/
+	background: url(../images/streetactivties.png) no-repeat center;
+	background-size: 1.34rem 1.32rem;
+}
+
+footer section article:nth-child(3){
+	width:28%;
+	height: 100%;
+	margin: 0 auto;
+	/*插入背景图*/
+	background: url(../images/continue.png) no-repeat center;
+	background-size: 1.35rem 0.57rem;
+}
+footer section article:nth-child(2){
+	height: 100%;
+	margin: 0 auto;
+	padding-left: 0.2rem;
+
+}
+footer section article:nth-child(2) h2{
+	color:#5b5b5b;
+	font-size: 0.34rem;
+	margin: 0.3rem auto 0.15rem auto;
+	font-weight: 100;
+
+}
+footer section article:nth-child(2) h3{
+	color:#969695;
+	font-size: 0.24rem;
+		font-weight: 100;
+}
+footer section article:nth-child(2) h3 span{
+	color:#969695;
+	margin-left: 0.9rem;
+	font-size: 0.24rem;
+}
+footer section article:nth-child(2) h3 span b{
+	margin-left: 0.12rem;
+	font-weight: 100;
+	color: #ff8400;
+}

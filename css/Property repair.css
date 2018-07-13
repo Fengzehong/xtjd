@@ -1,0 +1,101 @@
+*{margin: 0;padding: 0;}
+    a{text-decoration: none;}
+    ul{list-style: none;}
+    body{min-width: 320px;max-width: 750px;width: 100%;background: #eee;font-size: 0.2rem;margin: 0 auto;position: relative;}
+    .fl{float: left;}
+    .fr{float: right;}
+    header{width: 7.5rem;height: 1.28rem;background: #4fb5e9;position: fixed;top:0;}
+    /*顶部开始*/
+    .top{width: 7.5rem;height: 0.6rem;}
+	    .top img{margin-top:0.6rem;margin-left: 0.38rem;width: 0.28rem;height: 0.46rem;}
+	    .found{width: 7.5rem;height: 0.69rem;}
+	    .found p{font-size:0.3818rem;color:#ffffff;text-align:center;}
+
+.content{
+    width: 7.5rem;
+    height: 12.08rem;
+    background: #ffffff;
+    margin-top: 1.28rem;
+    overflow: hidden;
+}
+.word{
+    margin-top: 0.12rem;
+    width: 7.5rem;
+    height: 0.55rem;
+}
+.word input{
+    width: 1.55rem;
+    height: 0.55rem;
+    background: #ffffff;
+}
+.content ul li {
+    float:left;
+    width: 25%;
+    text-align:center;
+    margin-top:0.24rem;
+}
+.describe{
+    margin-top:1.62rem;
+    width: 7.5rem;
+    height: 0.52rem;
+}
+.describe p{
+    font-size:0.2993rem;
+    color:#333333;
+    margin-left: 0.34rem 
+}
+.add{
+    width: 7.5rem;
+    height: 3.22rem;
+    background: #eeeeee;
+}
+.inner{
+    margin-left: 0.29rem    
+}
+.inner img{
+    width: 0.98rem;
+    height: 0.98rem;
+    margin-top: 2.06rem;
+    margin-left: 0.13rem
+}
+.contact{
+    width: 7.5rem;
+    height: 6.1rem;
+}
+.phone{
+    width: 7.5rem;
+    height: 1.28rem;
+    overflow: hidden;
+}
+.phone p {
+    font-size:0.3471rem;
+    color:#333333; 
+    margin-left: 0.58rem;
+    margin-top: 0.71rem;
+}
+.chose select{
+    width: 6.6rem;
+    height: 0.76rem;
+    margin-left: 0.36rem;
+    font-size: 0.3124rem;
+    text-indent: 0.22rem;
+    color:#333333; 
+    margin-top: 0.12rem;
+}
+.text p{
+
+    margin-top: 0.3rem;
+    margin-left: 0.57rem;
+    font-size: 0.3124rem;
+    color:#999999; 
+}
+.button button{
+    width: 6.53rem;
+    height: 0.8rem;
+    background: #4fb5e9;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    font-size:0.3763rem;
+    color:#ffffff;
+    display: block;
+}

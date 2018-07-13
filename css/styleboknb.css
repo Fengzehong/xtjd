@@ -1,0 +1,28 @@
+/*页面初始化*/
+*{
+	margin: 0;
+	padding: 0;
+	/*border:0.1px dotted black ;*/
+}
+a{text-decoration: none; color:#8b8b8b;}
+li{list-style: none;}
+.img{border:0;}
+.fr{float: right;}
+.fl{float: left;}
+html,body{width:100%;min-width: 320px;max-width: 750px;font-size: 0.2rem;height: 100%;margin:0 auto; box-sizing:border-box; }
+header, section, article, aside, footer, figure, nav{display: block;}
+/*顶部*/
+.headCall{width:7.5rem;height:1.28rem;background-color: #4fb5e9;position: fixed;top:0;}
+.headCall .back{width:0.65rem;height:100%;float:left;text-align:right;}
+.headCall .back a{width:100%;height:100%;}
+.headCall .back a img{width:0.25rem;height:0.44rem;margin-top: 0.6rem;}
+.headCall .title{width:6.07rem;float:left;text-align: center;font-size: 0.38rem; color: #fff; padding-top: 0.6rem;}
+.empty_head{height:1.28rem;width:100%;}
+/***************************************************************绑定设备************************************/
+.outbg{background: #eeeeee;width:7.5rem;height:100%;}
+.boknb{width:100%;overflow: hidden; background-color: #fff; }
+.boknb article{width:100%; height:0.9rem;}
+.boknb article p{width:88%; margin:0 auto;font-size: 0.38rem;line-height: 0.9rem; color:#666;}
+.boknb .photo p{height: 0.9rem; line-height: 0.9rem;}
+.boknb article p a{float:right;color:#fea454; font-size: 0.31rem;}
+.boknb article:nth-of-type(2){border-bottom: 2px solid #ccc;}

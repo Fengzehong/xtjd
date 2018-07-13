@@ -1,0 +1,138 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-27 09:37:40
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-06-29 09:30:38
+*/
+*{
+    margin:0;
+    padding: 0
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    background: #eee;
+    font-size: 0.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*顶部开始*/
+header{
+    width: 7.5rem;
+    height: 1.28rem;
+    background: #4fb5e9;
+    position: fixed;
+    top:0;
+}
+.top{
+    width: 7.5rem;
+    height: 0.63rem;
+    /*background: red;*/
+    
+}
+.top img {
+    width: 0.27rem;
+    height: 0.45rem;
+    margin-top:0.63rem;
+    margin-left: 0.49rem;
+}
+.community p{
+    text-align: center;
+    font-size: 0.3818rem;
+    color:#ffffff;
+}
+
+/*顶部结束*/
+
+.content{
+	width: 7.5rem;
+	height: 12.05rem;
+	background: #ffffff;
+	margin-top: 1.28rem
+}
+.active{
+    color:blue;
+    background: purple;
+}
+#demo #a{display: none;}
+/*导航栏开始*/
+#demo{
+	width: 7.5rem;
+	height: 0.88rem;
+	border-bottom: 1px solid #969695;
+	/*background: red;*/
+}
+#demo input{
+	border: 0;
+	float: left;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	width: 25%;
+	text-align: center;
+	font-size: 0.3174rem;
+	display: block;
+	color:#333333;
+	background: #ffffff;
+}
+.main{
+	width: 7.5rem;
+	height: 2.05rem;
+	/*background: blue;*/
+	border-bottom: 1px solid #969695;
+}
+.left{
+	width: 2.55rem;
+	height: 2.05rem;
+	/*background: yellow;*/
+}
+.left img{
+	margin-top: 0.17rem;
+	margin-left: 0.19rem;
+	width: 1.94rem;
+	height: 1.71rem;
+}
+.center{
+	width: 3.68rem;
+	height: 2.05rem;
+	/*background: grey;*/
+}
+.center p{
+	font-size: 0.3471rem;
+	color:#5b5b5b;
+	margin-top: 0.31rem;
+}
+.center span{
+	font-size: 0.3471rem;
+	color:#5b5b5b;
+	margin-top: 0.05rem;
+	display: block;
+}
+.center article{
+	font-size: 0.243rem;
+	color:#969695;
+	margin-top: 0.25rem
+}
+.right{
+	width: 1.27rem;
+	height: 2.05rem;
+	line-height: 2.05rem;
+	/*background: red;*/
+}
+.right img{
+	width: 0.53rem;
+	height: 0.53rem;
+	margin-top: 0.79rem	
+}

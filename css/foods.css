@@ -1,0 +1,201 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-03 15:20:43
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-04 09:43:45
+*/
+*{
+    margin:0;
+    padding: 0
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    background: #eee;
+    font-size: 0.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*顶部开始*/
+header{
+    width: 7.5rem;
+    height: 1.28rem;
+    background: #4fb5e9;
+    position: fixed;
+    top:0;
+}
+.top{
+    width: 7.5rem;
+    height: 0.63rem;
+    /*background: red;*/
+    
+}
+.top img {
+    width: 0.27rem;
+    height: 0.45rem;
+    margin-top:0.63rem;
+    margin-left: 0.49rem;
+}
+.life p{
+    text-align: center;
+    font-size: 0.3818rem;
+    color:#ffffff;
+}
+
+/*顶部结束*/
+/*主题开始*/
+.content{
+	width: 7.5rem;
+	height: 12.05rem;
+	background: #ffffff;
+	margin-top: 1.28rem
+}
+.main{
+	width: 5.9rem;
+	height: 1.85rem;
+	border-bottom: 1px solid #cccccc;
+}
+/*左边开始*/
+.left{
+	width: 1.5rem;
+	height: 10.91rem;
+	/*background: pink;*/
+	overflow: hidden;
+	border-right: 1px solid #cccccc;
+}
+.left .foods{
+	width: 1.55rem;
+	height: 2.25rem;
+	/*background: red;*/
+	margin-top: 0.17rem;
+}
+.left .foods ul li {
+	font-size:0.3471rem;
+	color:#666666;
+	text-align: center;
+	width: 1.55rem;	
+	height: 0.75rem;
+	line-height: 0.75rem
+}
+/*左边结束*/
+/*中间龙虾*/
+.center{
+	width: 4.05rem;
+	height: 1.85rem;
+	margin-left: 0.05rem;
+	/*background: orange;*/
+	overflow: hidden;
+}
+.newcss{
+    background: #4fb5e9;
+}
+.center img{
+	width: 1.91rem;
+	height: 1.29rem;
+	margin-top: 0.32rem;
+	margin-left: 0.13rem;
+	float: left;
+}
+.center p {
+	margin-left: 2.20rem;
+	margin-top:0.5rem;
+	font-size: 0.3471rem;
+	color:#5b5b5b;
+}
+.center span {
+	font-size: 0.243rem;
+	color:#ff6c00;
+	margin-top:0.3rem;
+	display: block;
+	margin-left: 2.20rem
+}
+.right{
+	width: 1.8rem;
+	height: 1.85rem;
+	/*background: lightblue;*/
+}
+.jia{
+	width: 1.48rem;
+	height: 1.85rem;
+	/*background: yellow;*/
+	float: left;
+	display: flex;
+	justify-content:space-between;
+}
+.right button{
+	width: 0.43rem;
+	height: 0.43rem;
+	font-size: 0.2847rem;
+	color:#ffffff;
+	margin-top:1.13rem;
+	background: #d6d6d6;
+}
+.right p{
+	width: 0.55rem;
+	height: 0.42rem;
+	background: #eaeaea;
+	margin-top: 1.13rem;
+	text-align: center;
+	line-height: 0.42rem;
+}
+.total{
+  width: 7.5rem;
+  height: 1.15rem;
+  background: red;
+  bottom: 0;
+  position: absolute;
+}
+.total .price{
+	width: 3.66rem;
+	height: 1.15rem;
+	background: #eaeaea;
+	line-height: 1.15rem
+}
+.total .price p {
+	text-align: center;
+	font-size: 0.3194rem;
+	color:#5b5b5b;
+
+}
+.ptc{
+	width: 1.18rem;
+	height: 1.15rem;
+	background: #eaeaea;
+}
+.ptc img{
+	width: 0.45rem;
+	height: 0.45rem;
+	margin-top: 0.36rem;
+}
+.total .order{
+	width: 2.66rem;
+	height: 1.15rem;
+	line-height:1.15rem;
+	background: #4fb5e9;
+}
+.order button {
+	width: 2.66rem;
+	height: 1.15rem;
+	/*line-height:1.15rem;*/
+	background: #4fb5e9;
+	text-align: center;
+	font-size: 0.3763rem;
+	color:#ffffff;
+}
+#a{
+	margin-top: 0.26rem
+}
+

@@ -1,0 +1,113 @@
+header{
+	width: 7.5rem;
+	height: 1.28rem;
+	background: #4fb5e9;
+	position: fixed;
+	top:0;
+}
+header section{
+	width: 25%;
+	height: 1.28rem;
+	height: 0.9rem;
+	margin-top: 0.38rem;
+	line-height: 0.9rem;
+	text-align: center;
+}
+header .streetAct{
+	width: 50%;
+}
+.comActives section:nth-child(1),.comActives section:nth-child(3){
+	width: 35%;
+	height: 1.28rem;
+	height: 0.9rem;
+	margin-top: 0.38rem;
+	line-height: 0.9rem;
+	text-align: center;
+	font-size: 0.34rem;
+	color:#fff;
+}
+.comActives section:nth-child(3) select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	width:2.2rem;
+	font-size: 0.34rem;
+	color:#fff;
+	text-align: left;
+	background: url(../images/cAHeadR.png) no-repeat center ;
+	background-position: right ;
+	outline:none;
+	border: 0;
+	text-indent: 0.1rem;
+}
+.comActives section:nth-child(2){
+	width: 30%;
+	height: 1.28rem;
+	height: 0.9rem;
+	margin-top: 0.38rem;
+	line-height: 0.9rem;
+}
+header section:nth-child(2) article{
+	width: 100%;
+	text-align: center;
+	color:#fff;
+	font-size: 0.38rem;
+}
+header section:nth-child(1) article{
+	width: 80%;
+	height: 100%;
+}
+header section:nth-child(1) article input{
+	width: 100%;
+	height: 100%;
+	background: url(../images/back.png) no-repeat 0 center;
+	background-size: 0.25rem 0.44rem;
+	border: 0;
+	appearance:none;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none;/* Safari 和 Chrome */
+	outline: none;/* 消除选中效果*/
+}
+/*顶部占位*/
+.emptyTop{width:100%;height: 1.28rem;}
+/*内容*/
+nav section{
+	width:6.7rem;
+	margin:0 auto;
+}
+nav section article{
+	width:100%;
+}
+nav section article:nth-child(1){
+	height: 1.4rem;
+
+	line-height: 0.55rem;
+	font-size: 0.34rem;
+	color:#1b1b1b;
+	font-weight: 100;
+	padding-top: 0.45rem;
+}
+nav section article:nth-child(1) h2{
+	font-weight: 100;
+		text-align: center;
+}
+nav section article:nth-child(1) p{
+	width:75%;
+	margin:0 auto;
+	font-size: 0.24rem;
+	color: #969695;
+	margin-top: 0.2rem;
+}
+nav section article:nth-child(1) p span b{
+	margin-left: 0.24rem;
+	font-weight: 100;
+	color:#ff8400;
+}
+nav section article:nth-child(2) h3{
+	font-size:0.29rem;
+	line-height: 0.5rem;
+	font-weight: 300;
+}
+nav section article:nth-child(2) h3:nth-child(4),h3:nth-child(7),h3:nth-child(9),h3:nth-child(10){
+	text-indent: 0.34rem;
+}

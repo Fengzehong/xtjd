@@ -1,0 +1,40 @@
+/*页面初始化*/
+*{
+	margin: 0;
+	padding: 0;
+	/*border:0.1px dotted black ;*/
+}
+a{text-decoration: none; color:#8b8b8b;}
+li{list-style: none;}
+.img{border:0;}
+.fr{float: right;}
+.fl{float: left;}
+html,body{width:100%;min-width: 320px;max-width: 750px;font-size: 0.2rem;height: 100%;margin:0 auto; box-sizing:border-box; }
+header, section, article, aside, footer, figure, nav{display: block;}
+/*顶部*/
+.headCall{width:7.5rem;height:1.28rem;background-color: #4fb5e9;position: fixed;top:0;}
+.headCall .back{width:0.65rem;height:100%;float:left;text-align:right;}
+.headCall .back a{width:100%;height:100%;}
+.headCall .back a img{width:0.25rem;height:0.44rem;margin-top: 0.6rem;}
+.headCall .title{width:6.07rem;float:left;text-align: center;font-size: 0.38rem; color: #fff; padding-top: 0.6rem;}
+.empty_head{height:1.28rem;width:100%;}
+
+/***************************************************************办事指南************************************/
+.dataCtf form{width:90%;margin:0 auto;margin-top: 0.4rem;font-size: 0.31rem;color:#666;}
+.dataCtf form ul{height: 0.7rem; margin-bottom: 0.3rem;text-indent: 0.31rem;}
+.dataCtf form select {
+					width:5.1rem; height: 0.7rem; border: 1px solid #cfcfcf;float: right; padding-right: 0.2rem; appearance:none;
+					-webkit-appearance:none;
+					-moz-appearance:none;
+					font-size: 0.31rem;
+					color:#333;
+					background:url(../images/vbooking.png) no-repeat 4.5rem center;
+					background-size: 0.26rem;
+}
+.dataCtf form span{font-size: 0.34rem; line-height: 0.7rem;}
+.dataCtf form p{margin-bottom: 0.7rem;}
+.dataCtf form p input{font-size: 0.34rem;text-indent: 0.31rem;}
+.dataCtf form .oneindent{text-indent: 0.62rem;}
+.dataCtf article {width:6.52rem; height: 0.7rem;text-indent: 0.31rem;margin:0 auto;}
+.dataCtf article input{width:100%; height:100%;text-align: center;color: #fff;font-size: 0.37rem;background: #4fb5e9; border: 0px;}
+.dataCtf form p input{width:5.1rem; height: 0.7rem; float: right;}

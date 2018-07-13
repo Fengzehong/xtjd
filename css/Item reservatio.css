@@ -1,0 +1,127 @@
+*{margin: 0;padding: 0;}
+    a{text-decoration: none;}
+    ul{list-style: none;}
+    body{min-width: 320px;max-width: 750px;width: 100%;background: #eee;font-size: 0.2rem;margin: 0 auto;position: relative;}
+    .fl{float: left;}
+    .fr{float: right;}
+    header{width: 7.5rem;height: 1.28rem;background: #4fb5e9;position: fixed;top:0;}
+    /*顶部开始*/
+    .top{width: 7.5rem;height: 0.6rem;}
+	    .top img{margin-top:0.6rem;margin-left: 0.38rem;width: 0.28rem;height: 0.46rem;}
+	    .goods{width: 7.5rem;height: 0.69rem;}
+	    .goods p{font-size:0.3818rem;color:#ffffff;text-align:center;}
+
+.content{
+    width: 7.5rem;
+    height: 13.33rem;
+    margin-top: 1.28rem;
+    background: #ffffff;
+}
+.content .number{
+    width: 7.5rem;
+    height: 2.24rem;
+}
+.number button {
+    width: 0.7rem;
+    height: 0.7rem;
+    background: #4fb5e9;
+    font-size: 0.4566rem;
+    color:#ffffff;
+}
+.number .left {
+    width: 1.6rem;
+    height: 0.7rem;
+    margin-top: 0.79rem 
+}
+.left span{
+    font-size:0.3471rem;
+    color:#333333;
+    margin-left: 0.46rem;
+    margin-top:0.17rem;
+    display: block;
+}
+.number .center{
+    width: 3.7rem;
+    height: 0.7rem;
+    margin-top: 0.79rem;
+
+}
+.center{
+    overflow: hidden;
+}
+.center div{
+    width: 1.7rem;
+    height: 0.69rem;
+    margin-left: 0.17rem;
+    background: #ffffff;
+    border:1px solid #242424 ;
+}
+.center p{
+    
+    text-indent:0.37rem;
+    margin-top:0.22rem;
+    font-size:0.3324rem;
+}
+/*.center input{
+    width: 1.7rem;
+    height: 0.69rem;
+    margin-left: 0.17rem;
+    text-indent:0.37rem;
+}*/
+ #add{
+    margin-left: 0.17rem;
+}
+.number .right  {
+    width: 2.2rem;
+    height: 0.7rem;
+    margin-top: 0.79rem 
+}
+.right p {
+    margin-top:0.25rem;
+    font-size:0.2628rem;
+    color:#666666;
+}
+.time select{
+    width: 100%;
+    /*margin-top:0.48rem;*/
+    height: 0.7rem;
+    font-size: 0.3124rem;
+    color:#333333;
+    text-indent:0.37rem;
+}
+
+.contact p {
+    color:#333333;
+    font-size:0.3471rem;
+    margin-left: 0.37rem;
+    margin-top: 0.69rem;
+}
+.contact select {
+    margin:0 auto;
+    display: block;
+    width: 6.57rem;
+    height: 0.74rem;
+    font-size:0.3124rem ;
+    color:#666666;
+    margin-top:0.26rem;
+    text-indent: 0.24rem
+}
+
+
+.word p {
+    margin-top: 0.27rem;
+    margin-left: 0.5rem;
+    font-size:0.3124rem;
+    color:#999999;
+}
+
+.bottom button{
+    background: #4fb5e9;
+    width: 6.52rem;
+    height: 0.79rem;
+    margin:0 auto;
+    display: block;
+    font-size:0.3763rem;
+    color:#ffffff;
+    margin-top: 1.01rem;
+}

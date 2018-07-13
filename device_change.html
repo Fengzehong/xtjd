@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/initialize.css">
+    <title>更换手机</title>
+    <link rel="stylesheet" href="">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script>$('html').css('fontSize', ($(window).width()>750?750:$(window).width())/750*100);
+        $(function(){
+            $('html').css('fontSize', $('body').width()/750*100);
+        });</script>
+        <style></style>
+</head>
+<body class="device_body selfinformation_body">
+<!-- ************************************************************顶部**************************************************** -->
+    <div class="head information_head">
+        <div class="back">
+            <a href=""><img src="images/back.png" alt=""></a>
+        </div>
+        <div class="title">
+        更换手机
+        </div>
+    </div>
+    <div class="empty_head">
+    </div>
+<!-- ************************************************************内容**************************************************** -->
+    <div class="selfinformation devic_change">
+        <form action="" >
+            <input type="text" placeholder="输入新手机号" class="number" >
+            <p><input type="text" placeholder="输入验证码" class="checker"><input type="button" value="获取验证码"></p>
+            <input type="submit" value="确定">
+        </form>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    background: #eee;
+    font-size: 0.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*顶部开始*/
+header{
+    width: 7.5rem;
+    height: 1.28rem;
+    background: #4fb5e9;
+    position: fixed;
+    top:0;
+}
+.top{
+    width: 7.5rem;
+    height: 0.63rem;
+    /*background: red;*/
+    
+}
+.top img {
+    width: 0.27rem;
+    height: 0.45rem;
+    margin-top:0.63rem;
+    margin-left: 0.49rem;
+}
+.mine p{
+    text-align: center;
+    font-size: 0.3818rem;
+    color:#ffffff;
+}
+
+/*顶部结束*/
+/*主题部分*/
+.content{
+    width: 7.5rem;
+    height: 12.05rem;
+    margin-top: 1.28rem;
+    background: #eeeeee;
+    text-align: center;
+}
+.login{
+    width: 7.5rem;
+    height: 3.62rem;
+    background: #ffffff;
+}
+.login img{
+    margin-top: 0.4rem;
+    width: 1.62rem;
+    height: 1.62rem;
+}
+.login p{
+    font-size: 0.3818rem;
+    color:#666666;
+    margin-top: 0.2rem
+}
+.login span{
+    font-size: 0.3818rem;
+    color:#a9a9a9;
+}
+.notice{
+    width: 7.5rem;
+    height: 1.25rem;
+    background: #eeeeee;
+    overflow: hidden;
+}
+.notice .mineNotice{
+    width: 7.5rem;
+    height: 0.89rem;
+    background: #ffffff;
+    margin-top:0.22rem;
+}
+.mineNotice p,.word p,.myself p,.number p{
+    font-size: 0.3818rem;
+    color:#666666;
+    float: left;
+    margin:0.2rem 0.53rem;
+}
+.mineNotice img,.word img,.myself img,.number img{
+    float: right;
+    margin-right: 0.61rem;
+    margin-top:0.37rem;
+    width: 0.17rem;
+    height: 0.24rem;
+}
+.word,.myself,.number{
+    width: 7.5rem;
+    height: 0.95rem;
+    background: #ffffff;
+    border-bottom: 1px solid grey;
+}
+ /*footer*/
+footer{
+    width: 7.5rem;
+    height:1.09rem;
+    background: #f8f8f8;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    bottom:0;
+    border-top: 0.01rem solid #c3c3c3;
+}
+footer ul {
+    margin-top:0.15rem;
+}
+footer ul li {
+    float:left;
+    width: 20%;
+}
+footer img {
+    width: 0.51rem;
+    height: 0.54rem;
+}

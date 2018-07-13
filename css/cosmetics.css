@@ -1,0 +1,119 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-29 09:02:12
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-11 15:05:28
+*/
+*{
+    margin:0;
+    padding: 0
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    background: #eee;
+    font-size: 0.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*顶部开始*/
+header{
+    width: 7.5rem;
+    height: 1.28rem;
+    background: #4fb5e9;
+    position: fixed;
+    top:0;
+}
+.top{
+    width: 7.5rem;
+    height: 0.63rem;
+    /*background: red;*/
+    
+}
+.top img {
+    width: 0.27rem;
+    height: 0.45rem;
+    margin-top:0.63rem;
+    margin-left: 0.49rem;
+}
+.cosmetics p{	
+    text-align: center;
+    font-size: 0.3818rem;
+    color:#ffffff;
+}
+
+/*顶部结束*/
+/*主题部分开始*/
+.content{
+	width: 7.5rem;
+	height: 12.05rem;
+	background: #ffffff;
+	margin-top:1.28rem;
+	overflow: hidden;
+}
+.newcss{
+        background: #4fb5e9;
+}
+.left{
+	width: 1.58rem;
+	background: #ffffff;
+	height: 12.05rem;
+	border-right: 2px solid #cccccc;
+}
+
+.left ul{
+	height: 0.76rem;
+	/*background: #4fb5e9;*/
+	text-align: center;
+	margin-top:0.59rem;
+}
+.left li {
+	font-size:0.3471rem;
+	color:#666666;
+	height: 0.76rem;
+	line-height: 0.76rem
+}
+.hidden{
+	display: none;
+}
+
+.right,.hidden{
+	width: 5.85rem;
+	height: 1.5rem;
+	/*background: red;*/
+	float: left;
+	border-bottom: 1px solid #cccccc;
+}
+.right img,.hidden img{
+	margin-top:0.29rem;
+	margin-left:0.34rem;
+	width: 1.17rem;
+	height: 1.14rem;
+	float: left;
+}
+.right p,.hidden p {
+	font-size:0.3471rem;
+	color:#5b5b5b;
+	margin-top:0.5rem;
+	margin-left: 1.62rem
+}
+.right span,.hidden span{
+	font-size:0.243rem;
+	color:#ff6c00;
+	margin-top:0.1rem;
+	display: block;
+	margin-left: 1.57rem
+}

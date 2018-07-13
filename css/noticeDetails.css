@@ -1,0 +1,107 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-22 09:26:14
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-06-22 09:52:55
+*/
+*{
+    margin:0;
+    padding: 0
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    background: #eee;
+    font-size: 0.2rem;
+    margin: 0 auto;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*顶部开始*/
+header{
+    width: 7.5rem;
+    height: 1.28rem;
+    background: #4fb5e9;
+    position: fixed;
+    top:0;
+}
+.top{
+    width: 7.5rem;
+    height: 0.63rem;
+    /*background: red;*/
+    
+}
+.top img {
+    width: 0.27rem;
+    height: 0.45rem;
+    margin-top:0.63rem;
+    margin-left: 0.49rem;
+}
+.notice p{
+    text-align: center;
+    font-size: 0.3818rem;
+    color:#ffffff;
+}
+
+/*顶部结束*/
+.content{
+	width: 7.5rem;
+	height: 12.05rem;
+	margin-top:1.28rem;
+	background: #ffffff;
+}
+/*圆通快递*/
+.expressage{
+	width: 7.5rem;
+	height: 1.5rem;
+	/*background: red;*/
+}
+.expressage p {
+	text-align: center;
+	line-height: 1.5rem;
+	height: 1.5rem;
+	font-size: 0.3818rem;
+	color:#666666; 
+}
+.word{
+	width: 6.35rem;
+	height: 3.58rem;
+	margin:0 auto;
+	/*background: grey;*/
+}
+.word p {
+	font-size: 0.3471rem;
+	color:#666666;
+	text-indent: 0.69rem;
+	line-height: 0.64rem
+}
+.address p {
+	font-size: 0.3007rem;
+	color:#666666;
+	text-align: center;
+}
+.address article {
+	font-size: 0.3007rem;
+	color:#666666;
+	text-align: center;
+	line-height: 0.56rem
+}
+.address span{
+	text-align: center;
+	display: block;
+	font-size: 0.3471rem;
+	color:#666666; 
+	line-height: 0.77rem
+}

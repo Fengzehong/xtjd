@@ -1,0 +1,183 @@
+/*
+* @Author: Administrator
+* @Date:   2018-07-05 15:52:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-06 14:34:06
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	min-width: 320px;
+	max-width: 750px;
+	width: 100%;
+	/*height: 13.33rem;*/
+	background: #eee;
+	font-size: 0.2rem;
+	margin: 0 auto;
+	position: relative;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*头部*/
+header{
+	width: 7.5rem;
+	height: 1.28rem;
+	background: #4fb5e9;
+	position: fixed;
+	top:0;
+	margin:0 auto ;}
+.top{
+	width: 7.5rem;
+	height: 0.6rem;
+	/*background: green;*/
+}
+.top img{
+	width: 0.26rem;
+    height: 0.44rem;
+     margin-top: 0.6rem;
+     margin-left:0.38rem;
+}
+.information{
+	width: 7.5rem;
+	height: 0.69rem;
+}
+.information p{
+	font-size:0.3818rem;
+	color:#ffffff;
+	text-align:center;
+	/*background: red;*/
+}
+/*主题部分*/
+.content{
+	width: 7.5rem;
+	height: 12.05rem;
+	background: #eeeeee;
+	margin-top:1.28rem;
+}
+.sculpture,.user,.name,.phone,.changepwd,.binding{
+	width: 7.5rem;
+	height: 0.89rem;
+	background: #ffffff;
+	line-height: 0.89rem;
+}
+#sculpture{
+	margin-top: 0.15rem
+}
+.sculpture .left {
+	width: 5.93rem;
+	height: 0.89rem;
+	/*background: yellow;*/
+}
+.sculpture .left p,.user .left p,.name .left p,.phone .left p,.changepwd .left p,.binding .left p{
+	font-size: 0.3818rem;
+	color:#666666;
+	margin-left: 0.55rem
+}
+/*中间头像图片*/
+.sculpture .center{
+	width: 0.68rem;
+	height: 0.89rem;
+	/*background: pink;*/
+	float: left;
+	line-height: 0.89rem;
+	display: block;
+}
+.sculpture .center img{
+	width: 0.69rem;
+	height: 0.63rem;
+	margin-top: 0.15rem
+}
+/*右边箭头*/
+.sculpture .right{
+	width: 0.89rem;
+	height: 0.89rem;
+	/*background: black;*/
+	text-align: center;
+
+}
+.sculpture .right img {
+	width: 0.17rem;
+	height: 0.24rem;
+	margin-top: 0.37rem
+}
+.user{
+	margin-top: 0.15rem;
+}
+.user,.name,.phone,.changepwd,.binding{
+	border-bottom: 1px solid #cccccc;
+}
+.user .left,.name .left,.phone .left,.changepwd .left,.binding .left{
+	width: 2.71rem;
+	height: 0.89rem;
+}
+.user .center,.name .center,.phone .center,.changepwd .center,.binding .center{
+	width: 3.98rem;
+	height: 0.89rem;
+}
+.user .center p,.name .center p,.phone .center p,.changepwd .center p,.binding .center p{
+	float: right;
+	font-size: 0.3124rem;
+	color:#666666;
+}
+.user .right,.name .right,.phone .right,.changepwd .right,.changepwd .right,.binding .right{
+	width: 0.81rem;
+	height: 0.89rem;
+}
+.user .right img,.name .right img,.phone .right img,.changepwd .right img,.binding .right img{
+	width: 0.17rem;
+	height: 0.24rem;
+	margin-top: 0.37rem;
+	margin-left: 0.3rem
+}
+.address{
+	width: 7.5rem;
+	height: 0.89rem;
+	background:#ffffff;
+	border-bottom: 1px solid #cccccc;
+}
+.address .left {
+	width: 2.7rem;
+	height: 0.89rem;
+	/*background: pink;*/
+}
+.address .left p{
+	font-size: 0.3818rem;
+	color:#666666;
+	margin-left: 0.55rem;
+	display: block;
+	line-height: 0.89rem
+}
+.address .center{
+	width: 4.07rem;
+	height: 0.89rem;
+	/*background: grey;*/
+	overflow: hidden;
+}
+.address .center p{
+	text-align: right;
+	font-size: 0.3124rem;
+	color:#666666;
+}
+.address .right{
+	width: 0.73rem;
+	height: 0.89rem;
+	/*background: yellow;*/
+}
+.address .right img {
+	margin-top: 0.35rem;
+	margin-left: 0.25rem;
+	width: 0.17rem;
+	height: 0.24rem;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 设置图像比率1:1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>生活圈-美食详情2</title>
+    <link rel="stylesheet" href="css/initialize.css">
+    <link rel="stylesheet" href="css/delicious.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script>$('html').css('fontSize', ($(window).width()>750?750:$(window).width())/750*100);
+    $(function(){
+        $('html').css('fontSize', $('body').width()/750*100);
+    });</script>
+    <style>
+    .active{
+    background: #4fb5e9;
+}
+nav aside ul{
+    /*display: none;*/
+}
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <section class="fl">
+            <article class="fr">
+                <input type="button">
+            </article>
+        </section>
+        <section class="fl streetAct">
+            <article>
+                生活圈
+            </article>
+        </section>
+        <section class="fl">
+            <article>
+            </article>
+        </section>
+    </header>
+    <div class="emptyTop"></div>
+    <nav>
+        <section class="fl" id="demo">
+            <li class="oli">荤菜</li>
+            <li class="oli">素菜</li>
+            <li class="oli">海鲜</li>
+        </section>
+        <aside class="fr" id="foodItem" >
+            <ul style=" display:block; ">
+                <li>
+                    <a href="" class="fl"><img src="images/food.png" alt=""></a>
+                    <div class="fl">
+                        <h2 >招牌龙虾1</h2>
+                        <h3 >¥<b class="danjiaItem">1</b></h3>
+                    </div>
+                    <div class="fr">
+                        <p>
+                            <span class="fl jian" >-</span><input type="text" class="getNumber fl ms_Inp"  onkeyup="value=value.replace(/[^\d]/g,'')"value="0" ><span class="fl jia" upfn()>+</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <ul style=" display:block; ">
+                <li>
+                    <a href="" class="fl"><img src="images/food.png" alt=""></a>
+                    <div class="fl">
+                        <h2 >招牌龙虾1</h2>
+                        <h3 >¥<b class="danjiaItem">2</b></h3>
+                    </div>
+                    <div class="fr">
+                        <p>
+                            <span class="fl jian" >-</span><input type="text" class="getNumber fl ms_Inp"  onkeyup="value=value.replace(/[^\d]/g,'')"value="0" ><span class="fl jia" upfn()>+</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <ul style=" display:block; ">
+                <li>
+                    <a href="" class="fl"><img src="images/food.png" alt=""></a>
+                    <div class="fl">
+                        <h2 >招牌龙虾1</h2>
+                        <h3 >¥<b class="danjiaItem">5</b></h3>
+                    </div>
+                    <div class="fr">
+                        <p>
+                            <span class="fl jian" >-</span><input type="text" class="getNumber fl ms_Inp"  onkeyup="value=value.replace(/[^\d]/g,'')"value="0" ><span class="fl jia" upfn()>+</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+    </nav>
+    <footer>
+        <div class="lfFooter ">
+            <p>  合计：￥<input id="inpTotal" type="text" value="172.00" readonly><input id="inpSum" value="0" readonly></p>
+        </div>
+        <div class="rgFooter ">
+            <a href="">下单</a>
+        </div>
+    </footer>
+<script>
+    //选项卡功能
+    // var oSe=document.getElementById("demo");
+    var oLi=document.getElementById("demo").getElementsByTagName('li');//数组
+    // var oAside=document.getElementById('foodItem');
+    var oUl=document.getElementById('foodItem').getElementsByTagName('ul');
+    for(var i=0;i<oLi.length;i++){
+            oLi[i].index=i;
+        oLi[i].onclick=function(){
+            for(var i=0;i<oLi.length;i++){
+                oUl[i].style.display="none"
+            }
+            oUl[this.index].style.display="block"
+        }
+    }
+     function countFn(){
+    var count=0;
+    var sum=0;
+         //计总件
+        $('.getNumber').each(function(){
+            var d=parseInt($(this).val());
+            count=count+d;
+        });
+        $('#inpSum').val(count);
+        //计总价
+        $('.getNumber').each(function(){
+            var j=parseInt($(this).parents('p').parents('div').prev('div').children('h3').children(".danjiaItem").text());
+            // console.log($(this).parents('p').parents('div').prev('div').children('h3').children(".danjiaItem").text());
+            sum=sum+j*parseInt($(this).val());
+        });
+        $("#inpTotal").val(sum);
+     };
+     countFn();
+    // 加
+    $('.jia').each(function(){
+        $(this).click(function(){
+            var b=parseInt( $(this).prev('.ms_Inp').val());
+            $(this).prev('.ms_Inp').val(b+1);
+        countFn();
+        });
+    });
+    // 减
+    $('.jian').each(function(){
+        $(this).click(function(){
+            var b=parseInt( $(this).next('.ms_Inp').val())
+            if(b>1){
+            $(this).next(".ms_Inp").val(b-1)
+            };
+        countFn();
+        })
+    })
+</script>
+</body>
+</html>

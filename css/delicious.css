@@ -1,0 +1,216 @@
+*{
+	box-sizing:border-box;
+	/* border:2px solid purple; */
+}
+header{
+	width: 7.5rem;
+	height: 1.28rem;
+	background: #4fb5e9;
+	position: fixed;
+	top:0;
+}
+header section{
+	width: 25%;
+	height: 1.28rem;
+	height: 0.9rem;
+	margin-top: 0.38rem;
+	line-height: 0.9rem;
+	text-align: center;
+}
+header .streetAct{
+	width: 50%;
+}
+.comActives section:nth-child(1),.comActives section:nth-child(3){
+	width: 35%;
+	height: 1.28rem;
+	height: 0.9rem;
+	margin-top: 0.38rem;
+	line-height: 0.9rem;
+	text-align: center;
+	font-size: 0.34rem;
+	color:#fff;
+}
+.comActives section:nth-child(3) select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	width:2.2rem;
+	font-size: 0.34rem;
+	color:#fff;
+	text-align: left;
+	background: url(../images/cAHeadR.png) no-repeat center ;
+	background-position: right ;
+	outline:none;
+	border: 0;
+	text-indent: 0.1rem;
+}
+.comActives section:nth-child(2){
+	width: 30%;
+	height: 1.28rem;
+	height: 0.9rem;
+	margin-top: 0.38rem;
+	line-height: 0.9rem;
+}
+header section:nth-child(2) article{
+	width: 100%;
+	text-align: center;
+	color:#fff;
+	font-size: 0.38rem;
+}
+header section:nth-child(1) article{
+	width: 80%;
+	height: 100%;
+}
+header section:nth-child(1) article input{
+	width: 100%;
+	height: 100%;
+	background: url(../images/back.png) no-repeat 0 center;
+	background-size: 0.25rem 0.44rem;
+	border: 0;
+	appearance:none;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none;/* Safari 和 Chrome */
+	outline: none;/* 消除选中效果*/
+}
+/*顶部占位*/
+.emptyTop{width:100%;height: 1.28rem;}
+/*内容*/
+nav{
+	width:7.5rem;
+	overflow: hidden;
+}
+nav section{
+	width:1.47rem;
+}
+nav section li{
+	width:100%;
+	height: 0.75rem;
+	font-size: 0.34rem;
+	color:#666;
+	text-align: center;
+}
+nav section li:hover{
+	background: #4fb5e9;
+}
+
+nav aside li{
+	width:5.85rem;
+	height: 1.55rem;
+	border-left:2px solid #ccc;
+	border-bottom:2px solid #ccc;
+}
+/*nav aside ul{
+	display: none;
+}*/
+nav aside a{
+	display: block;
+	width: 0.94rem;
+		height: 1.14rem;
+	margin-top:0.3rem;
+	margin-left: 0.4rem;
+}
+nav aside a img{
+	width: 100%;
+	height: 100%;
+}
+nav aside ul li div:nth-child(2){
+	width:1.89rem;
+	height: 100%;
+	margin-left: 0.2rem;
+}
+nav aside ul li div:last-child{
+	width:2.2rem;
+	height: 100%;
+	padding-top: 1rem;
+	margin: 0 auto;
+
+}
+nav aside ul li div:last-child p{
+	overflow: hidden;
+	margin: 0 auto;
+}
+nav aside div span{
+	height: 0.45rem;
+	width: 0.5rem;
+	display: block;
+	text-align: center;
+	line-height: 0.45rem;
+	background: #d6d6d6;
+	color: #fff;
+}
+nav aside div input{
+	height: 0.45rem;
+	width: 0.4rem;
+	text-indent: 30%;
+	display: block;
+}
+nav aside div h2{
+	width: 100%;
+	margin-top: 0.55rem;
+	line-height: 0.55rem;
+	font-size: 0.37rem;
+	color:#5b5b5b;
+	font-weight: 300;
+}
+nav aside div h3{
+		width: 100%;
+	font-size: 0.24rem;
+	color:#ff6c00;
+		font-weight: 300;
+}
+footer{
+	width: 7.5rem;
+	height: 1.2rem;
+	position: fixed;
+	bottom: 0;
+	background: red;
+	display: flex;
+	flex-direction: row;
+}
+footer .lfFooter{
+	width: 4.75rem;
+	height: 100%;
+	background: #d6d6d6;
+	display: flex;
+	flex-direction: row;
+	padding-left: 2em;
+	line-height: 1.2rem;
+}
+footer .lfFooter p {
+	width: 100%;
+	display: flex;
+	flex-direction:row;
+	font-size: 0.32rem;
+	color: #333;
+}
+footer .lfFooter p input:nth-child(1){
+	width:1.5rem;
+	height: 1.2rem;
+	background: #d6d6d6;
+	border: 0;
+	color: #333;
+	font-size: 0.32rem;
+	line-height:1.2rem;
+	vertical-align:middle;
+}
+footer .lfFooter p input:last-child{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	margin-left:0.25rem;
+	margin-top: 0.3rem;
+	display: block;
+	border: 0;
+	text-align: center;
+	background: #ff3f13;
+}
+footer .rgFooter{
+	width: 2.75rem;
+	height: 100%;
+	background: #4fb5e9;
+	line-height: 1.2rem;
+	text-align: center;
+}
+footer .rgFooter a{
+	color: #fff;
+}

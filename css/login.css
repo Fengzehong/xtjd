@@ -1,0 +1,111 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    background: #eee;
+    font-size: 0.2rem;
+    margin: 0 auto;
+    position: relative;
+
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*主题部分开始*/
+.content{
+	width: 7.5rem;
+	height: 13.33rem;
+	background: #3b85bd;
+	background: url(../images/bg.jpg) no-repeat;
+}
+/*文字部分*/
+.words{
+	width: 7.5rem;
+	height: 4.42rem;
+	overflow: hidden;
+}
+.words p{
+	font-size: 0.6419rem;
+	color:#ffffff;
+	text-align: center;
+	margin-top:2.38rem;
+}
+.words span{
+	font-size: 0.4318rem;
+	color:#ffffff;
+	text-align: center;
+	display: block;
+}
+/*文本框*/
+.txt input{
+	width: 6.94rem;
+	height: 1.01rem;
+	margin: 0 auto;
+	display: block;
+	font-size: 0.3471rem;
+	color:#000000;
+	text-indent: 0.96rem;
+	line-height: 1.01rem
+}
+#txt1{
+	background: url(../images/loginlg.png) no-repeat left #ffffff;
+	background-position:0.19rem;
+	background-size:0.39rem 0.45rem;
+}
+#txt2{
+	background: url(../images/loginlg2.png) no-repeat left #ffffff;
+	background-position:0.19rem;
+	background-size:0.35rem 0.46rem;
+}
+/*按钮*/
+button{
+	width: 6.94rem;
+	height: 0.97rem;
+	background: #55c0f7;
+	margin: 0 auto;
+	display: block;
+	font-size: 0.3818rem;
+	color:#ffffff;
+	margin-top: 0.53rem
+}
+/*底部*/
+.bottom{
+	width: 7.5rem;
+	height: 5.48rem;
+	/*background: red;*/
+}
+.bottom .main{
+	width: 6.6rem;
+	height: 5.48rem;
+	/*background: green;*/
+	margin-left: 0.51rem;
+	overflow: hidden;
+}
+.bottom span {
+	font-size: 0.3245rem;
+	color:#d0e2ef;
+	margin-top: 4.29rem;
+	display: block;
+}
+.main #left{
+	float: left;
+	display: block;
+}
+.main #right{
+	float: right;
+}
+/*主题部分结束
